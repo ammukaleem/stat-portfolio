@@ -1,0 +1,10 @@
+services:
+  web:
+    build: .
+    container_name: portweb
+    ports:
+      - "8022:80"
+    volumes: 
+      - ./portfolio:/var/www/html/
+
+

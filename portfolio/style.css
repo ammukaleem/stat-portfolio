@@ -1,0 +1,175 @@
+body{
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+}
+nav {
+
+    display: flex;
+    justify-content: center;
+    
+}
+nav div {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav div ul{
+    display: flex;
+    list-style: none; 
+    gap: 25px;   
+}
+nav div ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+nav div ul li a:hover {
+color: red;
+}
+nav div h2 {
+    letter-spacing: 2px;
+    font-family: "Open Sans", sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+}   
+header .container {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    gap: 100px; 
+}
+img {
+    border-radius: 25%;
+    width: 350px;
+    height: 350px;
+    margin-top: 35px;
+}
+.subtitle{
+margin: 0;
+padding: 0;
+}
+.title{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    
+}
+.cotation{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+.dev{
+margin: 0;
+padding: 0;
+color: brown;
+letter-spacing: 2px;
+margin-top: 24px;
+margin-bottom: 24px;
+}
+.action button {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.action{
+display: flex;
+column-gap: 12px;
+}
+.home-btn{
+    background-color: rgb(143, 192, 9);
+    font-size: 16px;
+    border-style: none;
+    color: white;
+    border: 2px solid rgb(143, 192, 9);
+}
+.know-btn{
+    background-color: rgb(24, 111, 224);
+    font-size: 16px;
+    border-style: none;
+    color: white;
+    border: 2px solid rgb(24, 111, 224)
+}
+.know-btn:hover{
+    background-color: brown;
+    transition: 0.5s;
+}
+.home-btn:hover{
+    background-color: rgb(28, 28, 203);
+    transition: 0.5s;
+}
+.about-me{
+    margin-top: 60px;
+    height: 600px;
+    background-color: rgb(153, 149, 149);
+    display: flex;
+    justify-content: center;
+}
+.container1{
+    width:80%;
+    height: 400px;
+}
+div section p{
+    letter-spacing: 2px;
+}
+
+div .about-me-image-intro h4{
+margin-top: 110px ;
+}
+div .about-me-image-intro p{
+    margin-top: 30px;
+}
+
+div .about-me-image-intro{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+div .img-social{
+    padding: 10px;
+    position: relative;
+    
+
+ }
+.social-box{
+    width: 25px;
+    height: 100px;
+    padding: 6px;
+    position: absolute;
+    background-color: white;
+    top:150px;
+    left:10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    border-radius: 10px;
+    
+}
+.social-box button{
+    width: 25px;
+    height: 140px;
+    background-color: rgb(143, 192, 9);
+    border-style: none;
+    color: black;
+}
+.social-box button:hover{
+background-color: red;
+
+}
+
+
+
+
+
+
+
+
